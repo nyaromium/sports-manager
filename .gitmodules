@@ -1,0 +1,6 @@
+[submodule "thirdparty/wxWidgets"]
+	path = thirdparty/wxWidgets
+	url = https://github.com/wxWidgets/wxWidgets.git
+[submodule "thirdparty/openxlsx"]
+	path = thirdparty/openxlsx
+	url = https://github.com/troldal/OpenXLSX.git
