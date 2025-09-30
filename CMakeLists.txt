@@ -7,8 +7,14 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(wxBUILD_SHARED OFF)
 
 project (sport-manager VERSION 0.0.1 LANGUAGES CXX)
+
+if(MSVC)
+    add_compile_options(/FS)
+endif()
+
 
 include (submodule)
 

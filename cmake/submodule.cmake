@@ -13,6 +13,5 @@ if(GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
         endif()
     endif()
 endif()
-
-add_subdirectory(${CMAKE_SOURCE_DIR}/thirdparty/openxlsx/OpenXLSX)
+add_subdirectory(${CMAKE_SOURCE_DIR}/thirdparty/openxlsx)
 add_subdirectory(${CMAKE_SOURCE_DIR}/thirdparty/wxWidgets)
